@@ -1,0 +1,34 @@
+.menu-wrapper {
+  width: 100%;
+  background-color: #24292e;
+}
+
+.menu {
+  max-width: 1140px;
+  height: 72px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__logo {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.menu__text {
+  color: #aaacae;
+}
+
+.menu__button {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.menu__button:hover {
+  color: #cbccce;
+}

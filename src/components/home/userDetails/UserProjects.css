@@ -1,0 +1,15 @@
+.projects-data {
+  min-height: 200px;
+  padding-left: 16px;
+  border: 1px solid #e1e4e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-data__info {
+  color: #24292e;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}

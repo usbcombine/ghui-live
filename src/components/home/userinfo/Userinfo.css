@@ -1,0 +1,17 @@
+.users {
+  max-width: 1140px;
+  min-height: 100px;
+  background-color: #ffffff;
+  color: #24292e;
+  padding: 48px;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+  margin: auto;
+  margin-top: 72px;
+}
+
+.users-header {
+  color: #666666;
+  text-align: right;
+  padding-bottom: 20px;
+}

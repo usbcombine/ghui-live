@@ -1,0 +1,33 @@
+.repositories-data-item {
+  padding: 24px 0;
+  border-bottom: 1px solid #e1e4e8;
+  display: flex;
+  flex-direction: column;
+}
+
+.repositories-data-item > a {
+  text-decoration: none;
+}
+
+.data-item__repository-name {
+  cursor: pointer;
+  color: #0366d6;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.data-item__repository-name:hover {
+  text-decoration: underline;
+}
+
+.data-item__repository-info {
+  color: #586069;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 8px;
+}
+
+.repository-info__primary-language {
+  margin-right: 16px;
+}

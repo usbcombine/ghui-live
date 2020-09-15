@@ -1,0 +1,40 @@
+.users-row {
+  color: #666666;
+  font-size: 18px;
+  padding: 20px;
+  border-bottom: 1px solid #f6f8fa;
+  display: flex;
+  align-items: center;
+}
+
+.users-row--selected {
+  background-color: #f6f8fa;
+  opacity: 0.7;
+}
+
+.users-row:last-child {
+  border-bottom: 0px;
+}
+
+.users-row:hover {
+  cursor: pointer;
+  background-color: #f6f8fa;
+}
+
+.users-row__avatar {
+  width: 64px;
+  border-radius: 5px;
+}
+
+.users-row__username {
+  margin-left: 20px;
+  flex: 1 1 auto;
+}
+
+.users-row__name {
+  flex: 1 1 auto;
+}
+
+.users-row__repos {
+  margin-left: auto;
+}
